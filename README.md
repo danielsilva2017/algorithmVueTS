@@ -1,6 +1,6 @@
 # algorithmVueTS
 
-Relearning and learning new algorithms whilst polishing my TypeScript and giving an interface for the algorithms to run, in Vue JS.
+Relearning and learning new algorithms whilst polishing my TypeScript skills and giving an interface for the algorithms to run, in Vue JS.
 
 ## Project setup
 ```
