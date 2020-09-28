@@ -1,18 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <SearchWord />
+    <CreateTree />
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
+<script lang="ts">
+import { Options, Vue } from "vue-class-component";
+import SearchWord from "./components/SearchWord.vue";
+import CreateTree from "./components/CreateTree.vue";
+@Options({
   components: {
-    HelloWorld
-  }
-}
+    SearchWord,
+    CreateTree,
+  },
+})
+export default class App extends Vue {}
 </script>
+
 
 <style>
 #app {
